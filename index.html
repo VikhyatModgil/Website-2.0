@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vikhyat Modgil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bulma.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--Menu/Navigation-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://github.com/vikhyatmodgil">
+            <img src="icon.jpg" width="30" height="30">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Vikhyat Modgil
+            </a>
+      
+            <a class="navbar-item">
+              Contact
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Resume
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Projects
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary" href="https://github.com">
+                  <strong>Login</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--[Menu/Navigation] END-->
+      <!--About-->
+      <a class="button is-large is-fullwidth" id="main-tab-about">About Me</a>
+      <div class="tile is-ancestor">
+          <div class="tile is-4">
+          </div>
+          <div class="is-small tile is-4 box notification is-primary">
+            <p>
+             <b id="about-big">
+             Hey! My name is Vik. I am a student studying Computer Science at San Diego State University.
+             </b></br></br>
+               I have been working with different types of code since 2015. I've always been someone who wants to get every single detail right. I always apprecitate the creative side of a project, While not forgeting the logic. Going through school my favorite classes were usually design and math.
+              </br></br>
+               I relized my apprecition for coding during my freshmen year of college. I realized that coding was a perfect fit for me when I saw the combination of difficult puzzles and room for my own creativity.
+              </p>
+          </div>
+        </div>
+      <!--[About] END-->
+      <!--Contact-->
+      <a class="button is-large is-fullwidth " id="main-tab-contact">Contact</a>
+        <div class="has-text-centered">
+            <p class="button is-active is-outlined is-danger contact-button" onclick="toggle_visibility('phone')">📞</p>
+            <p class="button is-active is-outlined is-success contact-button" onclick="toggle_visibility('email')">📧</p>
+            <p class="button is-active is-outlined is-primary contact-button" onclick="toggle_visibility('pigeon')">🕊️</p>
+          </div>
+          <div class="phone box has-text-centered notification is-danger" id="phone">(619)-947-3244</div>
+          <div class="email box has-text-centered notification is-success" id="email">Vmodgil@sdsu.edu</div>
+          <div class="Pigeon box has-text-centered notification is-info" id="pigeon">Coming Soon :)</div>
+
+        
+      <!--[Contact] END-->
+      <!--Resume-->
+      <a class="button is-large is-fullwidth" id="main-tab-resume">Resume</a>
+      <div class="has-text-centered">
+        <a class="button is-active is-outlined" onclick="viewPdf()" id="viewPdf">View</a>
+        <a class="button is-info is-hoverable" href="Resume.pdf">Download</a>
+      </div>
+      <div class="is-fullwidth"></div>
+      <span id="showPdf"></span>
+      <!--[Resume] END-->
+      <!--[Skills]-->
+      <a class="button is-large is-fullwidth" id="main-tab-skills">Skills</a>
+      <div class="tile is-ancestor">
+          <div class="tile is-4 ">
+          </div>
+          <div class="is-small tile is-4 box notification is-success">
+            <p>
+             <!--Slaying dragons in part time-->
+             electronics<br>
+             programing<br>
+             being godly AF!
+            </p>
+          </div>
+        </div>
+      <!--[Skills] END-->
+      <!--Project-->
+      <a class="button is-large is-fullwidth" id="main-tab-Projects">Projects</a>
+      <div class="tile is-ancestor is-center">
+            <!--Project 1-->
+            <div class="tile projects">
+                <p class="notification is-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magnam totam voluptates! Fugit quidem cumque in culpa optio esse aliquid, necessitatibus eaque? Deleniti officia quidem quaerat perspiciatis vero, deserunt temporibus.</p>
+            </div>
+            <!--Project 2-->
+            <div class="tile projects">
+                <p class="notification is-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ipsum facere necessitatibus, quia natus minus, temporibus commodi voluptatem, voluptates adipisci cupiditate. Eos, ea minus similique odit fuga ad ab ipsum?</p>
+            </div>
+            <!--Project 3-->
+            <div class="tile projects">
+                <p class="notification is-info">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minima autem sit, libero incidunt possimus magni laboriosam error mollitia? Dolor similique, beatae quisquam voluptatibus voluptatem totam mollitia officia necessitatibus sequi.
+                </p>
+            </div>
+            <div></div>
+          </div>
+      <!--[Project] END-->
+</body>
+</html>

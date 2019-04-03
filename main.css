@@ -1,0 +1,18 @@
+.is-fullwidth{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.projects{
+    margin:1%;
+
+}
+#about-big{
+    font-size: 1.2em;
+}
+.contact-button{
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+#phone,#email,#pigeon{
+    display:none;
+}
